@@ -14,7 +14,7 @@ const Works = () => {
                 <p className="text-2xl"><span className="text-yellow-600">W</span>orks</p>
                 <p className="divider md:w-[30vw]"></p>
                 <div className='md:grid grid-cols-3 gap-8'>
-                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
                         <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={youtube}
@@ -23,7 +23,7 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body text-center">
-                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl mb-3">
+                            <h2 className="card-title justify-center font-bold text-2xl mb-3">
                                 YouTube
                             </h2>
                             <div className="card-actions justify-center gap-5">
@@ -42,7 +42,7 @@ const Works = () => {
                     </div>
 
 
-                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
                         <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={cyber}
@@ -52,7 +52,7 @@ const Works = () => {
                         </figure>
 
                         <div className="card-body p-4">
-                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl  mb-3">Cyber-Cafe</h2>
+                            <h2 className="card-title justify-center font-bold text-2xl  mb-3">Cyber-Cafe</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://cyber-cafe-1.surge.sh/">
                                     <button className="btn btn-neutral">Live Demo</button>
@@ -64,7 +64,7 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
                         <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={gadget}
@@ -73,7 +73,7 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl mb-3">Gadget-Heaven</h2>
+                            <h2 className="card-title justify-center font-bold text-2xl mb-3">Gadget-Heaven</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://boisterous-phoenix-758565.netlify.app/"><button className="btn btn-neutral">Live Demo</button></Link>
                                 <Link to="https://github.com/Tonmoy-Roy/Gadget-Heaven-Router"><button className='btn btn-neutralbtn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
@@ -81,7 +81,7 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
                         <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={cloth}
@@ -90,7 +90,7 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl mb-3">Clothing-Donation</h2>
+                            <h2 className="card-title justify-center font-bold text-2xl mb-3">Clothing-Donation</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral"> Live Demo</button></Link>
                                 <Link to="https://github.com/Tonmoy-Roy/Clothing-Donation-Authentication"><button className='btn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
@@ -98,7 +98,7 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
                         <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={Restaurant}
@@ -107,7 +107,7 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl mb-3">Restaurant-Management</h2>
+                            <h2 className="card-title justify-center font-bold text-2xl mb-3">Restaurant-Management</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://restaurant-management-70a73.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
                                 <Link to="https://github.com/Tonmoy-Roy/Restaurant-Management-System-cs"><button className='btn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
@@ -115,7 +115,7 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
                         <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={Movie}
@@ -124,7 +124,7 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl mb-3">Movie-Verse</h2>
+                            <h2 className="card-title justify-center font-bold text-2xl mb-3">Movie-Verse</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://movie-verse-76e61.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
                                 <Link to="https://github.com/Tonmoy-Roy/Movie-Verse-cs"><button className='btn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>

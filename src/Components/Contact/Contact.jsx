@@ -11,12 +11,12 @@ const Contact = () => {
                 <div className="md:mt-0 p-6 text-left">
                     <p className="text-2xl"><span className="text-yellow-600">S</span>ocial Links</p>
                     <p className="divider md:w-[30vw]"></p>
-                    <div className='flex mb-8'>
+                    <div className='md:flex mb-8'>
                         <div>
                             <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='text-5xl mr-8' /></Link>
                             <p className='ml-2'>Email</p>
                         </div>
-                        <button className="btn btn-neutral mt-3 mr-8" onClick={() => document.getElementById('my_modal_3').showModal()}>Phone</button>
+                        <button className="btn btn-neutral mt-3 mr-8 mb-3" onClick={() => document.getElementById('my_modal_3').showModal()}>Phone</button>
                         <dialog id="my_modal_3" className="modal">
                             <div className="modal-box">
                                 <form method="dialog">
@@ -26,7 +26,7 @@ const Contact = () => {
                                 <h3 className="font-bold text-lg">01894176266</h3>
                             </div>
                         </dialog>
-                        <div>
+                        <div className='mb-3'>
                             <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='text-5xl mr-8' /></Link>
                             <p>Github</p>
                         </div>

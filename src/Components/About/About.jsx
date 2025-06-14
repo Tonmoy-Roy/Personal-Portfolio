@@ -32,18 +32,26 @@ const About = () => {
                         <p className="divider md:w-[30vw]"></p>
                     </div>
                     <div className="md:flex justify-around p-5 mx-auto">
-                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
+                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5 transition duration-500 ease-in-out 
+                                 transform hover:-translate-y-2 hover:scale-300 
+                                 hover:shadow-2xl bg-gradient-to-br from-cyan-100 to-cyan-300 border-t-4 border-cyan-500">
                             <img className="md:h-[10vh] md:w-[5vw] rounded" src={html5} alt="" />
-                            <p className="text-xl text-orange-600 mt-5 font-bold">HTML 5</p>
-                            <p>HTML5 is used to create modern, interactive, and multimedia-rich websites with better semantics, cross-platform compatibility, and offline support.</p>
+                            <p className="text-xl text-orange-600 mt-5 font-bold">HTML5</p>
+                            <p>HTML5 is used to create modern, structured, and multimedia-rich web pages with improved semantics, cross-browser support, and offline capabilities.
+                            </p>
                         </div>
-                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
+
+                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5 transition duration-500 ease-in-out 
+                                 transform hover:-translate-y-2 hover:scale-300 
+                                 hover:shadow-2xl bg-gradient-to-br from-cyan-100 to-cyan-300 border-t-4 border-cyan-500">
                             <img className="md:h-[10vh] md:w-[5vw] rounded" src={Css} alt="" />
                             <p className="text-xl text-orange-600 mt-5 font-bold">CSS</p>
                             <p>CSS is used to style and layout web pages, making them visually appealing and responsive.(Short version: "CSS styles and designs web pages.")
                             </p>
                         </div>
-                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
+                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5 transition duration-500 ease-in-out 
+                                 transform hover:-translate-y-2 hover:scale-300 
+                                 hover:shadow-2xl bg-gradient-to-br from-cyan-100 to-cyan-300 border-t-4 border-cyan-500">
                             <img className="md:h-[10vh] md:w-[5vw] rounded" src={Tailwind} alt="" />
                             <p className="text-xl text-orange-600 mt-5 font-bold">Tailwind</p>
                             <p>Tailwind CSS is used to rapidly build modern, responsive websites with utility-first classes for faster development.
@@ -52,19 +60,25 @@ const About = () => {
                         </div>
                     </div>
                     <div className="md:flex justify-around p-5 mx-auto">
-                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
+                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5 transition duration-500 ease-in-out 
+                                 transform hover:-translate-y-2 hover:scale-300 
+                                 hover:shadow-2xl bg-gradient-to-br from-cyan-100 to-cyan-300 border-t-4 border-cyan-500">
                             <img className="md:h-[10vh] md:w-[5vw] rounded" src={Javascript} alt="" />
                             <p className="text-xl text-orange-600 mt-5 font-bold">JavaScript</p>
                             <p>JavaScript is used to add interactivity, dynamic behavior, and functionality to websites.(Short version: "JavaScript makes websites interactive and dynamic.")
                             </p>
                         </div>
-                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
+                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5 transition duration-500 ease-in-out 
+                                 transform hover:-translate-y-2 hover:scale-300 
+                                 hover:shadow-2xl bg-gradient-to-br from-cyan-100 to-cyan-300 border-t-4 border-cyan-500">
                             <img className="md:h-[10vh] md:w-[5vw] rounded" src={React} alt="" />
                             <p className="text-xl text-orange-600 mt-5 font-bold">React Js</p>
                             <p>React.js is used to build fast, scalable, and interactive user interfaces with reusable components.(Short version: "React creates dynamic UIs with reusable components.")
                             </p>
                         </div>
-                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
+                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5 transition duration-500 ease-in-out 
+                                 transform hover:-translate-y-2 hover:scale-300 
+                                 hover:shadow-2xl bg-gradient-to-br from-cyan-100 to-cyan-300 border-t-4 border-cyan-500">
                             <img className="md:h-[10vh] md:w-[5vw] rounded" src={Dom} alt="" />
                             <p className="text-xl text-orange-600 mt-5 font-bold">React Router Dom</p>
                             <p>React Router DOM is used to enable client-side routing and navigation in React applications without page reloads.
@@ -72,17 +86,23 @@ const About = () => {
                         </div>
                     </div>
                     <div className="md:flex justify-around p-5 mx-auto">
-                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
+                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5 transition duration-500 ease-in-out 
+                                 transform hover:-translate-y-2 hover:scale-300 
+                                 hover:shadow-2xl bg-gradient-to-br from-cyan-100 to-cyan-300 border-t-4 border-cyan-500">
                             <img className="md:h-[10vh] md:w-[5vw] rounded" src={Nodejs} alt="" />
                             <p className="text-xl text-orange-600 mt-5 font-bold">Node Js</p>
                             <p>A runtime for executing JavaScript on the server, enabling scalable backend development</p>
                         </div>
-                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
+                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5 transition duration-500 ease-in-out 
+                                 transform hover:-translate-y-2 hover:scale-300 
+                                 hover:shadow-2xl bg-gradient-to-br from-cyan-100 to-cyan-300 border-t-4 border-cyan-500">
                             <img className="md:h-[10vh] md:w-[5vw] rounded" src={FireBase} alt="" />
                             <p className="text-xl text-orange-600 mt-5 font-bold">Firebase</p>
                             <p>A Google-backed platform offering real-time databases, auth, and cloud services for fast app development.</p>
                         </div>
-                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
+                        <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5 transition duration-500 ease-in-out 
+                                 transform hover:-translate-y-2 hover:scale-300 
+                                 hover:shadow-2xl bg-gradient-to-br from-cyan-100 to-cyan-300 border-t-4 border-cyan-500">
                             <img className="md:h-[10vh] md:w-[5vw] rounded" src={Mongodb} alt="" />
                             <p className="text-xl text-orange-600 mt-5 font-bold">Mongo Db</p>
                             <p>A NoSQL database storing flexible, JSON-like documents for high-performance data handling.</p>

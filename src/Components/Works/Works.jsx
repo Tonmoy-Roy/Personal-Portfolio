@@ -14,111 +14,120 @@ const Works = () => {
                 <p className="text-2xl"><span className="text-yellow-600">W</span>orks</p>
                 <p className="divider md:w-[30vw]"></p>
                 <div className='md:grid grid-cols-3 gap-8'>
-                    <div className="border-4 mb-5">
-                        <figure>
+                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={youtube}
-                                alt="Cyber-Cafe"
-                                className="md:h-48 rounded mx-auto"
+                                alt="YouTube"
+                                className="md:h-48 rounded-lg mx-auto"
                             />
                         </figure>
-                        <div className="card-body">
-                            <h2 className="card-title flex justify-center mb-3">YouTube</h2>
-                            <div className="card-actions justify-evenly">
-                                <Link to="https://roaring-selkie-6f3214.netlify.app/"><button className="btn btn-neutral">Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Github</button></Link>
+                        <div className="card-body text-center">
+                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl mb-3">
+                                YouTube
+                            </h2>
+                            <div className="card-actions justify-center gap-5">
+                                <Link to="https://roaring-selkie-6f3214.netlify.app/">
+                                    <button className="btn btn-neutral">
+                                        Live Demo
+                                    </button>
+                                </Link>
+                                <Link to="https://github.com/Tonmoy-Roy/You-Tube">
+                                    <button className="btn bg-gray-800 hover:bg-black text-white transition duration-300">
+                                        GitHub
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
 
-                    <div className="border-4 mb-5">
-                        <figure>
+
+                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={cyber}
                                 alt="Cyber-Cafe"
-                                className="md:h-48 rounded"
+                                className="md:h-48 rounded-lg mx-auto"
                             />
                         </figure>
 
                         <div className="card-body p-4">
-                            <h2 className="card-title justify-center mb-3">Cyber-Cafe</h2>
+                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl  mb-3">Cyber-Cafe</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://cyber-cafe-1.surge.sh/">
                                     <button className="btn btn-neutral">Live Demo</button>
                                 </Link>
                                 <Link to="https://github.com/Tonmoy-Roy/Cyber-Cafe">
-                                    <button className="btn btn-neutral">Github</button>
+                                    <button className="btn bg-gray-800 hover:bg-black text-white transition duration-300">GitHub</button>
                                 </Link>
                             </div>
                         </div>
                     </div>
 
-
-
-                    <div className="border-4 mb-5">
-                        <figure>
+                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={gadget}
                                 alt="Cyber-Cafe"
-                                className="md:h-48 rounded"
+                                className="md:h-48 rounded-lg mx-auto"
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title flex justify-center mb-3">Gadget-Heaven</h2>
+                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl mb-3">Gadget-Heaven</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://boisterous-phoenix-758565.netlify.app/"><button className="btn btn-neutral">Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Gadget-Heaven-Router"><button className='btn btn-neutral'>Github</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Gadget-Heaven-Router"><button className='btn btn-neutralbtn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
                             </div>
                         </div>
                     </div>
 
-                    <div className="border-4 mb-5">
-                        <figure>
+                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={cloth}
                                 alt="Cyber-Cafe"
-                                className="md:h-48 rounded md:w-[18vw]"
+                                className="md:h-48 rounded-lg mx-auto md:w-[18vw]"
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title flex justify-center mb-3">Clothing-Donation</h2>
+                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl mb-3">Clothing-Donation</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Clothing-Donation-Authentication"><button className='btn btn-neutral'>Github</button></Link>
+                                <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral"> Live Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Clothing-Donation-Authentication"><button className='btn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
                             </div>
                         </div>
                     </div>
 
-                    <div className="border-4 mb-5">
-                        <figure>
+                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={Restaurant}
                                 alt="Cyber-Cafe"
-                                className="md:h-48 rounded"
+                                className="md:h-48 rounded-lg mx-auto"
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title flex justify-center mb-3">Restaurant-Management</h2>
+                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl mb-3">Restaurant-Management</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://restaurant-management-70a73.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Restaurant-Management-System-cs"><button className='btn btn-neutral'>Github</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Restaurant-Management-System-cs"><button className='btn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
                             </div>
                         </div>
                     </div>
 
-                    <div className="border-4 mb-5">
-                        <figure>
+                    <div className="border-4 border-red-400 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure className="transition-transform duration-700 hover:scale-105">
                             <img
                                 src={Movie}
                                 alt="Cyber-Cafe"
-                                className="md:h-48 rounded"
+                                className="md:h-48 rounded-lg mx-auto"
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title flex justify-center mb-3">Movie-Verse</h2>
+                            <h2 className="card-title justify-center text-red-600 font-bold text-2xl mb-3">Movie-Verse</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://movie-verse-76e61.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Movie-Verse-cs"><button className='btn btn-neutral'>Github</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Movie-Verse-cs"><button className='btn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
                             </div>
                         </div>
                     </div>

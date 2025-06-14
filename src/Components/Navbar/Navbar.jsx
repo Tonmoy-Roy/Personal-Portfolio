@@ -37,7 +37,7 @@ const Navbar = () => {
     return (
         <div className="md:flex">
             {/* Navbar */}
-            <div className="navbar bg-base-100 shadow-sm md:fixed left-0 md:w-[6vw] md:h-[80vh]">                {/* <div className="navbar-start">
+            <div className="navbar bg-base-100 shadow-sm md:fixed left-0 md:w-[6vw] md:h-[80vh] ml-[4vw]">                {/* <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -59,9 +59,9 @@ const Navbar = () => {
             </div>
 
             {/* Profile */}
-            <div className="bg-white shadow-md md:fixed md:left-[6vw] md:w-[22vw] md:h-[90vh] pt-5">                {/* Background Image Container - Now at the top */}
+            <div className="bg-white shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] pt-5">                {/* Background Image Container - Now at the top */}
                 <div className="background-container">
-                    <div className="md:w-[22vw] h-72 relative">
+                    <div className="md:w-[20vw] h-72 relative">
                         <div
                             className={`absolute inset-0 bg-cover bg-center transition-opacity duration-500 rounded ${fade ? 'opacity-600' : 'opacity-0'}`}
                             style={{ backgroundImage: `url(${backgroundImages[backgroundIndex]})` }}

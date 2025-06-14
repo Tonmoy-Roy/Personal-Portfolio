@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Works = () => {
     return (
-        <div className="md:ml-[20vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10 text-left">
+        <div className="md:ml-[22vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10 text-left">
             <div className="h-full overflow-y-auto">
                 <p className="text-2xl"><span className="text-yellow-600">W</span>orks</p>
                 <p className="divider md:w-[30vw]"></p>

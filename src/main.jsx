@@ -9,18 +9,22 @@ import {
 } from "react-router-dom";
 
 import { HelmetProvider } from 'react-helmet-async';
-import  Root  from './Components/Root/Root.jsx';
+import Root from './Components/Root/Root.jsx';
 import About from './Components/About/About.jsx';
-import Navbar from './Components/Navbar/Navbar.jsx';
+import Works from './Components/Works/Works.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
-    children:[
+    children: [
       {
-        path:"/",
-        element: <Navbar></Navbar>
+        path: "/",
+        element: <About></About>
+      },
+      {
+        path: "/works",
+        element: <Works></Works>
       },
     ]
   },

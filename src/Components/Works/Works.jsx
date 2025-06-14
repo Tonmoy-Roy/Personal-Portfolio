@@ -14,7 +14,7 @@ const Works = () => {
                 <p className="text-2xl"><span className="text-yellow-600">W</span>orks</p>
                 <p className="divider md:w-[30vw]"></p>
                 <div className='md:grid grid-cols-3 gap-8'>
-                    <div className="border-4">
+                    <div className="border-4 mb-5">
                         <figure>
                             <img
                                 src={youtube}
@@ -31,7 +31,7 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4">
+                    <div className="border-4 mb-5">
                         <figure>
                             <img
                                 src={cyber}
@@ -55,7 +55,7 @@ const Works = () => {
 
 
 
-                    <div className="border-4">
+                    <div className="border-4 mb-5">
                         <figure>
                             <img
                                 src={gadget}
@@ -72,7 +72,7 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4">
+                    <div className="border-4 mb-5">
                         <figure>
                             <img
                                 src={cloth}
@@ -89,7 +89,7 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4">
+                    <div className="border-4 mb-5">
                         <figure>
                             <img
                                 src={Restaurant}
@@ -106,7 +106,7 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4">
+                    <div className="border-4 mb-5">
                         <figure>
                             <img
                                 src={Movie}
@@ -115,7 +115,7 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title flex justify-center mb-3">Movie-verse</h2>
+                            <h2 className="card-title flex justify-center mb-3">Movie-Verse</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://movie-verse-76e61.web.app/"><button className="btn btn-neutral">Demo</button></Link>
                                 <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>

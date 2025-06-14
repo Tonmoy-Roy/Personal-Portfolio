@@ -6,7 +6,7 @@ import Javascript from "../../assets/icons/JavaScript.png"
 import React from "../../assets/icons/React2.png"
 import FireBase from "../../assets/icons/Firebase.png"
 import Nodejs from "../../assets/icons/Nodejs2.png"
-import Mongodb from "../../assets/icons/mongo.png"
+import Mongodb from "../../assets/icons/MongoDB.png"
 import Dom from "../../assets/icons/ReactRouterDom.png"
 import codeforces from "../../../public/code-forces.json"
 import atcoder from "../../assets/icons/logo_bk.svg"
@@ -94,10 +94,10 @@ const About = () => {
                     <div>
                         <p className="text-2xl"><span className="text-yellow-600">M</span>y Online Judge</p>
                         <p className="divider md:w-[30vw]"></p>
-                        <div className="flex justify-start md:ml-[3vw]">
-                            <a href="https://codeforces.com/profile/Tonmoy_Roy"><Lottie className="mr-10 md:h-[10vh] md:w-[5vw] border-4" animationData={codeforces}></Lottie></a>
-                            <a href="https://atcoder.jp/users/Tonmoy_Roy"><img width="50" height="50" src={atcoder} alt="codechef" className="mr-10 border-4 md:h-[10vh] md:w-[5vw]" /></a>
-                            <a href="https://drive.google.com/file/d/1oe8MekuU-MAZbClL1bevvfZg3f6WLRDz/view?usp=sharing"><img src={icpc} alt="" className="md:h-[10vh] md:w-[5vw] border-4 rounded" /></a>
+                        <div className="md:flex justify-start md:ml-[3vw]">
+                            <a href="https://codeforces.com/profile/Tonmoy_Roy"><Lottie className="mr-10 md:h-[10vh] md:w-[5vw] mb-3" animationData={codeforces}></Lottie></a>
+                            <a href="https://atcoder.jp/users/Tonmoy_Roy"><img src={atcoder} alt="codechef" className="mr-10 md:h-[10vh] md:w-[5vw] mb-3" /></a>
+                            <a href="https://drive.google.com/file/d/1oe8MekuU-MAZbClL1bevvfZg3f6WLRDz/view?usp=sharing"><img src={icpc} alt="" className="md:h-[10vh] md:w-[5vw] rounded" /></a>
                         </div>
                     </div>
                 </div>

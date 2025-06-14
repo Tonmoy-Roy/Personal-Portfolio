@@ -25,8 +25,8 @@ const Works = () => {
                         <div className="card-body">
                             <h2 className="card-title flex justify-center mb-3">YouTube</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://roaring-selkie-6f3214.netlify.app/"><button className="btn btn-neutral">Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>
+                                <Link to="https://roaring-selkie-6f3214.netlify.app/"><button className="btn btn-neutral">Live Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Github</button></Link>
                             </div>
                         </div>
                     </div>
@@ -44,10 +44,10 @@ const Works = () => {
                             <h2 className="card-title justify-center mb-3">Cyber-Cafe</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://cyber-cafe-1.surge.sh/">
-                                    <button className="btn btn-neutral">Demo</button>
+                                    <button className="btn btn-neutral">Live Demo</button>
                                 </Link>
-                                <Link to="https://github.com/Tonmoy-Roy/You-Tube">
-                                    <button className="btn btn-neutral">Code</button>
+                                <Link to="https://github.com/Tonmoy-Roy/Cyber-Cafe">
+                                    <button className="btn btn-neutral">Github</button>
                                 </Link>
                             </div>
                         </div>
@@ -66,8 +66,8 @@ const Works = () => {
                         <div className="card-body">
                             <h2 className="card-title flex justify-center mb-3">Gadget-Heaven</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://boisterous-phoenix-758565.netlify.app/"><button className="btn btn-neutral">Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>
+                                <Link to="https://boisterous-phoenix-758565.netlify.app/"><button className="btn btn-neutral">Live Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Gadget-Heaven-Router"><button className='btn btn-neutral'>Github</button></Link>
                             </div>
                         </div>
                     </div>
@@ -83,8 +83,8 @@ const Works = () => {
                         <div className="card-body">
                             <h2 className="card-title flex justify-center mb-3">Clothing-Donation</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral">Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>
+                                <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Clothing-Donation-Authentication"><button className='btn btn-neutral'>Github</button></Link>
                             </div>
                         </div>
                     </div>
@@ -100,8 +100,8 @@ const Works = () => {
                         <div className="card-body">
                             <h2 className="card-title flex justify-center mb-3">Restaurant-Management</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://restaurant-management-70a73.web.app/"><button className="btn btn-neutral">Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>
+                                <Link to="https://restaurant-management-70a73.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Restaurant-Management-System-cs"><button className='btn btn-neutral'>Github</button></Link>
                             </div>
                         </div>
                     </div>
@@ -117,8 +117,8 @@ const Works = () => {
                         <div className="card-body">
                             <h2 className="card-title flex justify-center mb-3">Movie-Verse</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://movie-verse-76e61.web.app/"><button className="btn btn-neutral">Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>
+                                <Link to="https://movie-verse-76e61.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Movie-Verse-cs"><button className='btn btn-neutral'>Github</button></Link>
                             </div>
                         </div>
                     </div>

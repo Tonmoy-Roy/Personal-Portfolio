@@ -4,14 +4,18 @@ import { useEffect, useState } from "react";
 import img1 from "../../assets/pexels-catiamatos-1072179.jpg";
 import img2 from "../../assets/pexels-rovenimages-com-344613-949587.jpg";
 import img3 from "../../assets/pexels-umkreisel-app-956999.jpg";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
+import { AiTwotoneMail } from "react-icons/ai";
+import { BsLinkedin } from "react-icons/bs";
+import { MdOutlineLocalPhone } from "react-icons/md";
+
 
 const Navbar = () => {
     const links = <>
         <li><NavLink>About</NavLink></li>
         <li><NavLink to="/works">Works</NavLink></li>
-        <li><NavLink>Blog</NavLink></li>
-        <li><NavLink>Contact</NavLink></li>
+        <li><NavLink to="/contact">Contact</NavLink></li>
     </>
 
     const backgroundImages = [img1];
@@ -76,7 +80,7 @@ const Navbar = () => {
 
                 {/* <!-- Name & Title --> */}
                 <h2 class="text-2xl font-bold mt-4">Tonmoy Roy</h2>
-                <div className="text-yellow-600">
+                <div className="text-yellow-600 mb-3">
                     {/* <Typewriter
                     words={['Programmer', 'Web Developer', 'Researcher']}
                     loop={true}
@@ -89,12 +93,11 @@ const Navbar = () => {
                 </div>
 
                 {/* <!-- Social Icons --> */}
-                <div class="md:flex justify-center gap-4 mt-4 text-xl text-gray-600">
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-x-twitter"></i>
-                    <i class="fab fa-github"></i>
-                    <i class="fab fa-stack-overflow"></i>
-                    <i class="fab fa-whatsapp"></i>
+                <div className='flex justify-center'>
+                    <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='mr-5' /></Link>
+                    <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='mr-5' /></Link>
+                    <Link to="https://www.linkedin.com/in/tonmoy-roy-own/"><BsLinkedin className='mr-5' /></Link>
+                    <Link to="https://wa.me/+8801894176266"><MdOutlineLocalPhone /></Link>
                 </div>
 
                 {/* <!-- Buttons --> */}

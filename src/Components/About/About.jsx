@@ -8,14 +8,14 @@ import FireBase from "../../assets/icons/Firebase.png"
 import Nodejs from "../../assets/icons/Nodejs2.png"
 import Mongodb from "../../assets/icons/mongo.png"
 import Dom from "../../assets/icons/ReactRouterDom.png"
-
-
-
-
+import codeforces from "../../../public/code-forces.json"
+import atcoder from "../../assets/icons/logo_bk.svg"
+import icpc from "../../assets/icons/icpc.png"
+import Lottie from "lottie-react";
 
 const About = () => {
     return (
-        <div className="md:ml-[26vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10 ">
+        <div className="md:ml-[20vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10 ">
             {/* Scrollable inner container */}
             <div className="h-full overflow-y-auto">
                 <div className="md:mt-0 p-6 text-left">
@@ -59,7 +59,7 @@ const About = () => {
                                 nesciunt aspernatur a ad omnis nemo.</p>
                         </div>
                         <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
-                           <img className="md:h-[10vh] md:w-[5vw] rounded" src={React} alt="" />
+                            <img className="md:h-[10vh] md:w-[5vw] rounded" src={React} alt="" />
                             <p className="text-xl text-orange-600 mt-5 font-bold">React Js</p>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt porro modi eveniet dicta asperiores,
                                 nesciunt aspernatur a ad omnis nemo.</p>
@@ -79,7 +79,7 @@ const About = () => {
                                 nesciunt aspernatur a ad omnis nemo.</p>
                         </div>
                         <div className="md:h-80 border-2 md:w-60 p-5 rounded mb-5">
-                           <img className="md:h-[10vh] md:w-[5vw] rounded" src={FireBase} alt="" />
+                            <img className="md:h-[10vh] md:w-[5vw] rounded" src={FireBase} alt="" />
                             <p className="text-xl text-orange-600 mt-5 font-bold">Firebase</p>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt porro modi eveniet dicta asperiores,
                                 nesciunt aspernatur a ad omnis nemo.</p>
@@ -89,6 +89,15 @@ const About = () => {
                             <p className="text-xl text-orange-600 mt-5 font-bold">Mongo Db</p>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt porro modi eveniet dicta asperiores,
                                 nesciunt aspernatur a ad omnis nemo.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p className="text-2xl"><span className="text-yellow-600">M</span>y Online Judge</p>
+                        <p className="divider md:w-[30vw]"></p>
+                        <div className="flex justify-start md:ml-[3vw]">
+                            <a href="https://codeforces.com/profile/Tonmoy_Roy"><Lottie className="mr-10 md:h-[10vh] md:w-[5vw] border-4" animationData={codeforces}></Lottie></a>
+                            <a href="https://atcoder.jp/users/Tonmoy_Roy"><img width="50" height="50" src={atcoder} alt="codechef" className="mr-10 border-4 md:h-[10vh] md:w-[5vw]" /></a>
+                            <a href="https://drive.google.com/file/d/1oe8MekuU-MAZbClL1bevvfZg3f6WLRDz/view?usp=sharing"><img src={icpc} alt="" className="md:h-[10vh] md:w-[5vw] border-4 rounded" /></a>
                         </div>
                     </div>
                 </div>

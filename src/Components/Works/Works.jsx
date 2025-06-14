@@ -1,10 +1,129 @@
 import React from 'react';
+import youtube from "../../assets/icons/youtube.png"
+import cyber from "../../assets/icons/cyber.jpg"
+import gadget from "../../assets/icons/Products.avif"
+import cloth from "../../assets/icons/cloth.jpg"
+import Restaurant from "../../assets/icons/Food.avif"
+import Movie from "../../assets/icons/jakob-owens-CiUR8zISX60-unsplash.jpg"
+import { Link } from 'react-router-dom';
 
 const Works = () => {
     return (
-        <div className="md:ml-[26vw] md:mt-0 md:w-[60vw] border-4 pt-5 p-6">
-            <p className='font-bold text-3xl'>Works</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, praesentium repudiandae hic nisi ipsam incidunt ipsa blanditiis repellendus adipisci atque et dolor earum sequi unde. Nobis, dignissimos nisi accusantium quo expedita dolore ea sequi esse, laudantium amet dolorum quaerat similique illum veritatis! Porro veniam magni deleniti esse quaerat accusantium doloribus aut voluptate laboriosam temporibus qui blanditiis alias omnis sit modi corrupti nostrum quisquam, consectetur repudiandae suscipit inventore facilis veritatis laborum delectus? Veritatis obcaecati sapiente veniam officiis, eaque quidem quae repudiandae dolorem animi sunt laboriosam magnam repellendus a laudantium aspernatur quibusdam hic delectus saepe corporis, optio quod. Porro sapiente, at ducimus delectus sequi dignissimos, quisquam unde dolore minus provident reiciendis fugiat. Eius dolor quibusdam hic corporis debitis sunt error, earum tempore sint quisquam vitae accusantium modi id incidunt rerum praesentium ut perspiciatis unde iure? Officiis recusandae explicabo sunt, qui dolores, cum quas corporis, magnam cumque animi quaerat ratione? Soluta vitae, molestias, quae perferendis ab quo tempora vel aperiam labore magnam aliquid numquam quam est, dolores libero suscipit beatae! Veritatis modi dolorem voluptatum eum enim accusamus praesentium quasi, laudantium sequi magnam totam maxime vitae quidem ad a eos. Eveniet rerum saepe earum! Accusamus, neque exercitationem quis laboriosam sapiente explicabo quas quibusdam expedita ut cumque dolor repudiandae perspiciatis fugiat tenetur facilis? Dolor sed laudantium velit! Dolorum distinctio labore cumque deleniti sed, eaque corrupti, ullam qui, eius minus placeat veniam illum commodi animi vitae quibusdam molestias? Animi pariatur temporibus architecto porro reprehenderit totam, eius asperiores perferendis. Inventore reprehenderit odio sit quos est ex iure ipsam necessitatibus quas ipsum eos amet eaque facilis, placeat corporis porro? Voluptas pariatur repudiandae fugiat accusamus doloribus recusandae numquam maxime accusantium vitae omnis magnam corrupti, voluptatibus veritatis nesciunt itaque iure laborum sequi odit ipsum hic rerum sapiente fugit. Ullam sit, dolor impedit facilis iure ipsum quaerat qui cupiditate soluta libero optio tempora officiis saepe harum sunt suscipit quis iusto. Sint mollitia minus, porro sed earum vero placeat autem laboriosam, voluptas delectus veniam ad enim impedit quasi doloribus cumque suscipit repellendus, explicabo dignissimos possimus at itaque neque illo fugit? Magni omnis veritatis hic. Saepe laudantium dignissimos libero quae, quidem explicabo accusamus sit, beatae eaque doloremque dolorum iure, quaerat nihil. Voluptatem illum velit amet sapiente architecto dolores est nihil quo quas, natus voluptas sint dolore inventore praesentium ad quidem. Molestiae cum dolore veritatis similique voluptates, itaque corporis unde doloremque repellat, dolorum nisi quisquam quas nesciunt quod maiores rem dicta asperiores ea, veniam recusandae repellendus soluta. Deserunt id, modi recusandae mollitia quo corporis consequuntur facilis dolores, et quae tenetur atque minima quod veniam facere provident ad numquam nulla voluptate aliquam sunt expedita porro! Necessitatibus excepturi ducimus laudantium esse incidunt doloribus neque nam, ratione quos, quibusdam error assumenda unde maiores harum. Dolorum nostrum rem cupiditate numquam fugiat optio ducimus sit blanditiis quasi iste possimus minima architecto voluptate laudantium, aperiam dolorem tempora qui voluptas distinctio magni dolor recusandae. Suscipit sint vero sit necessitatibus corrupti, optio officia expedita dolorem nihil laborum iusto commodi. In architecto amet est non repellat commodi rerum blanditiis, quas id! Beatae optio consectetur veritatis voluptate enim vel, recusandae molestias quos iste dolorum officia facere nisi aspernatur mollitia aliquam et laborum itaque. Rerum laboriosam non praesentium aut officia vitae, ad laborum veritatis corrupti molestias aliquam ipsa sint, sapiente tenetur ut tempore! Sunt architecto, commodi fugit provident modi reprehenderit illum at natus cupiditate quis eius rerum. Reiciendis, ipsa architecto deserunt repellat, modi dolores, neque recusandae sunt animi quaerat obcaecati corporis? Quisquam quasi nisi odio adipisci, sit voluptate perferendis animi recusandae. Assumenda ullam iste, nam, officiis suscipit nostrum dignissimos, nobis officia libero veritatis amet magnam rem neque odio. Corrupti blanditiis laudantium error repellat consequuntur nulla eligendi natus sunt deserunt vero in similique, animi illum architecto quis temporibus? Et vero officia recusandae. Alias modi cumque tempora aliquid, atque facere magni amet nulla facilis molestiae praesentium, ipsa maiores repellat sapiente quidem esse aut temporibus! Qui error iusto nihil? In alias laboriosam doloribus. Minima praesentium magni corrupti nulla, ea deleniti facilis necessitatibus consequatur eos, omnis cum nemo enim vitae? Expedita ratione pariatur atque quaerat labore, ut, itaque alias aliquam earum vero voluptatem temporibus et. Explicabo quis soluta esse sint accusantium voluptatibus facere voluptatem. Magni velit iure laboriosam architecto doloremque quibusdam amet magnam suscipit! Aut quod praesentium et deserunt dicta cumque asperiores, inventore possimus iste exercitationem temporibus. Repellat iusto accusamus officiis. Cupiditate velit vel sed ducimus voluptatum magni similique aut non dolores, ut voluptatibus delectus vero reiciendis eos sint officiis nam quisquam rerum? Ipsam at aliquid aperiam nemo temporibus molestiae laborum tempore soluta aut, ipsum repellendus dolore ea quaerat, asperiores pariatur mollitia dicta similique qui reiciendis sunt alias vel excepturi deserunt sint! Harum cumque aliquid necessitatibus natus, nemo praesentium pariatur doloribus. Quia error, blanditiis aliquid tempore perferendis animi mollitia saepe nihil eaque eum nam suscipit laborum aliquam inventore aut! Magnam eos placeat iure quia, cum amet voluptatibus omnis sed nostrum hic esse? Fugit enim voluptates sit nam ad repellendus nostrum iste laudantium! Maiores ipsum consectetur ipsa, ipsam ducimus dolorem nesciunt obcaecati quisquam error dicta quo? A, perferendis, facere aspernatur reiciendis sapiente voluptate placeat nostrum praesentium culpa non officia modi aut quod aliquid voluptatum quidem ratione. Consequatur numquam temporibus harum esse, voluptates accusamus repudiandae. Nesciunt rerum velit expedita odio? Accusantium consequatur earum, quos iure ullam rerum soluta repudiandae dolores sequi aspernatur veritatis, illo ab. Ducimus nihil inventore laboriosam. Voluptatem, quia provident? Molestias quas reprehenderit repellendus non blanditiis provident suscipit eos veniam, cumque ipsum amet, alias optio accusamus. Excepturi delectus eaque fuga molestiae at incidunt dolorem. Excepturi ducimus quia nam repellendus perferendis, eos sequi ut distinctio non exercitationem doloribus recusandae doloremque, dolores et, officiis velit inventore laboriosam nihil sunt consequuntur sapiente dicta esse earum! Quisquam eligendi cumque placeat molestias recusandae suscipit, explicabo nobis quaerat itaque quo corrupti beatae dolorum quis saepe magnam eos ipsa culpa illo mollitia quos quae doloribus. Quidem aspernatur, veniam ipsam earum eaque nemo, quo commodi, porro rem mollitia id. Dolor, sint quam voluptatem qui pariatur temporibus dicta accusamus nobis ipsa doloremque, enim, vitae nulla unde dignissimos voluptate autem odio itaque? Itaque accusamus impedit ducimus placeat iure? Incidunt?</p>
+        <div className="md:ml-[20vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10 text-left">
+            <div className="h-full overflow-y-auto">
+                <p className="text-2xl"><span className="text-yellow-600">W</span>orks</p>
+                <p className="divider md:w-[30vw]"></p>
+                <div className='md:grid grid-cols-3 gap-8'>
+                    <div className="border-4">
+                        <figure>
+                            <img
+                                src={youtube}
+                                alt="Cyber-Cafe"
+                                className="md:h-48 rounded mx-auto"
+                            />
+                        </figure>
+                        <div className="card-body">
+                            <h2 className="card-title flex justify-center mb-3">YouTube</h2>
+                            <div className="card-actions justify-evenly">
+                                <Link to="https://roaring-selkie-6f3214.netlify.app/"><button className="btn btn-neutral">Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="border-4">
+                        <figure>
+                            <img
+                                src={cyber}
+                                alt="Cyber-Cafe"
+                                className="md:h-48 rounded"
+                            />
+                        </figure>
+
+                        <div className="card-body p-4">
+                            <h2 className="card-title justify-center mb-3">Cyber-Cafe</h2>
+                            <div className="card-actions justify-evenly">
+                                <Link to="https://cyber-cafe-1.surge.sh/">
+                                    <button className="btn btn-neutral">Demo</button>
+                                </Link>
+                                <Link to="https://github.com/Tonmoy-Roy/You-Tube">
+                                    <button className="btn btn-neutral">Code</button>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div className="border-4">
+                        <figure>
+                            <img
+                                src={gadget}
+                                alt="Cyber-Cafe"
+                                className="md:h-48 rounded"
+                            />
+                        </figure>
+                        <div className="card-body">
+                            <h2 className="card-title flex justify-center mb-3">Gadget-Heaven</h2>
+                            <div className="card-actions justify-evenly">
+                                <Link to="https://boisterous-phoenix-758565.netlify.app/"><button className="btn btn-neutral">Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="border-4">
+                        <figure>
+                            <img
+                                src={cloth}
+                                alt="Cyber-Cafe"
+                                className="md:h-48 rounded md:w-[18vw]"
+                            />
+                        </figure>
+                        <div className="card-body">
+                            <h2 className="card-title flex justify-center mb-3">Clothing-Donation</h2>
+                            <div className="card-actions justify-evenly">
+                                <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral">Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="border-4">
+                        <figure>
+                            <img
+                                src={Restaurant}
+                                alt="Cyber-Cafe"
+                                className="md:h-48 rounded"
+                            />
+                        </figure>
+                        <div className="card-body">
+                            <h2 className="card-title flex justify-center mb-3">Restaurant-Management</h2>
+                            <div className="card-actions justify-evenly">
+                                <Link to="https://restaurant-management-70a73.web.app/"><button className="btn btn-neutral">Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="border-4">
+                        <figure>
+                            <img
+                                src={Movie}
+                                alt="Cyber-Cafe"
+                                className="md:h-48 rounded"
+                            />
+                        </figure>
+                        <div className="card-body">
+                            <h2 className="card-title flex justify-center mb-3">Movie-verse</h2>
+                            <div className="card-actions justify-evenly">
+                                <Link to="https://movie-verse-76e61.web.app/"><button className="btn btn-neutral">Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/You-Tube"><button className='btn btn-neutral'>Code</button></Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

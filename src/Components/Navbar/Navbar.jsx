@@ -9,7 +9,6 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const links = <>
         <li><NavLink>About</NavLink></li>
-        <li><NavLink>Resume</NavLink></li>
         <li><NavLink to="/works">Works</NavLink></li>
         <li><NavLink>Blog</NavLink></li>
         <li><NavLink>Contact</NavLink></li>
@@ -60,9 +59,9 @@ const Navbar = () => {
             </div>
 
             {/* Profile */}
-            <div className="bg-white shadow-md md:fixed md:left-[6vw] md:w-[29vw] md:h-[90vh] pt-5">                {/* Background Image Container - Now at the top */}
+            <div className="bg-white shadow-md md:fixed md:left-[6vw] md:w-[22vw] md:h-[90vh] pt-5">                {/* Background Image Container - Now at the top */}
                 <div className="background-container">
-                    <div className="md:w-[29vw] h-72 relative">
+                    <div className="md:w-[22vw] h-72 relative">
                         <div
                             className={`absolute inset-0 bg-cover bg-center transition-opacity duration-500 rounded ${fade ? 'opacity-600' : 'opacity-0'}`}
                             style={{ backgroundImage: `url(${backgroundImages[backgroundIndex]})` }}

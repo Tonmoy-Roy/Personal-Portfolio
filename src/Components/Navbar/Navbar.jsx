@@ -11,23 +11,22 @@ import { IoIosContact } from "react-icons/io";
 import { GrProjects } from "react-icons/gr";
 import { FaPhoneAlt } from "react-icons/fa";
 
-
 const Navbar = () => {
-    const [isDark, setIsDark] = useState(false);
-    useEffect(() => {
-        const storedTheme = localStorage.getItem("theme");
-        document.documentElement.setAttribute("data-theme", storedTheme || "dark");
-        setIsDark(storedTheme === "light");
-    }, []);
+    // const [isDark, setIsDark] = useState(true);
+    // useEffect(() => {
+    //     const storedTheme = localStorage.getItem("theme");
+    //     document.documentElement.setAttribute("data-theme", storedTheme || "dark");
+    //     setIsDark(storedTheme === "light");
+    // }, []);
 
-    const toggleTheme = () => {
-        const newTheme = isDark ? "dark" : "light";
-        document.documentElement.setAttribute("data-theme", newTheme);
-        localStorage.setItem("theme", newTheme);
-        setIsDark(!isDark);
-    };
+    // const toggleTheme = () => {
+    //     const newTheme = isDark ? "dark" : "light";
+    //     document.documentElement.setAttribute("data-theme", newTheme);
+    //     localStorage.setItem("theme", newTheme);
+    //     setIsDark(!isDark);
+    // };
     const links = <>
-        <input onClick={toggleTheme} type="checkbox" checked={isDark} className="toggle btn mr-5 mb-3" readOnly />
+        {/* <input onClick={toggleTheme} type="checkbox" checked={isDark} className="toggle btn mr-5 mb-3" readOnly /> */}
         <li className="btn btn-outline mr-5 mb-3 md:w-[7vw]"><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
         <li className="btn btn-outline mb-3 mr-5 md:w-[7vw]"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
         <li className="btn btn-outline md:w-[7vw]"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
@@ -91,7 +90,7 @@ const Navbar = () => {
 
                 {/* <!-- Buttons --> */}
                 <div class="mt-6 text-sm font-semibold">
-                    <a href="/public/Resume.pdf" download>
+                    <a href="/Resume.pdf" download>
                         <button class="btn btn-outline mr-2">DOWNLOAD RESUME</button>
                     </a>
                     <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline">CONTACT ME</button></Link>

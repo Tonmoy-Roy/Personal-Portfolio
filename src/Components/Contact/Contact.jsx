@@ -45,7 +45,7 @@ const Contact = () => {
                             <label className="label">Email</label>
                             <input type="password" className="input mb-3" placeholder="Email" />
                             <textarea
-                                className="md:w-[21vw] px-3 py-2 text-gray-700 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className="md:w-[21vw] px-3 py-2 border rounded-lg"
                                 placeholder="Enter your text here..."
                             />
                             <button className="md:w-[21vw] btn btn-primary mt-4">Submit</button>

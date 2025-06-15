@@ -1,6 +1,6 @@
 import porfileimg from "../../assets/profile.png"
 import { Typewriter } from 'react-simple-typewriter';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import img1 from "../../assets/pexels-catiamatos-1072179.jpg";
 import { Link, NavLink } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
@@ -13,10 +13,24 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 
 const Navbar = () => {
+    const [isDark, setIsDark] = useState(false);
+    useEffect(() => {
+        const storedTheme = localStorage.getItem("theme");
+        document.documentElement.setAttribute("data-theme", storedTheme || "dark");
+        setIsDark(storedTheme === "light");
+    }, []);
+
+    const toggleTheme = () => {
+        const newTheme = isDark ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+        setIsDark(!isDark);
+    };
     const links = <>
-        <li className="btn btn-outline mr-5 mb-3 md:w-[7vw]"><NavLink>About <IoIosContact className="text-xl"/></NavLink></li>
-        <li className="btn btn-outline mb-3 md:w-[7vw]"><NavLink to="/works">Works <GrProjects className="xl"/> </NavLink></li>
-        <li className="btn btn-outline md:w-[7vw]"><NavLink to="/contact">Contact <FaPhoneAlt className="xl"/></NavLink></li>
+        <input onClick={toggleTheme} type="checkbox" checked={isDark} className="toggle btn mr-5 mb-3" readOnly />
+        <li className="btn btn-outline mr-5 mb-3 md:w-[7vw]"><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
+        <li className="btn btn-outline mb-3 mr-5 md:w-[7vw]"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
+        <li className="btn btn-outline md:w-[7vw]"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
     </>
 
     const backgroundImages = [img1];
@@ -37,9 +51,10 @@ const Navbar = () => {
             </div>
 
             {/* Profile */}
-            <div className="bg-white shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] pt-5">                {/* Background Image Container - Now at the top */}
+            <div className=" shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] rounded border-2">
+                {/* Background Image Container - Now at the top */}
                 <div className="background-container">
-                    <div className="md:w-[20vw] h-72 relative">
+                    <div className="md:w-[303px] h-72 relative">
                         <div
                             className={`absolute inset-0 bg-cover bg-center transition-opacity duration-500 rounded ${fade ? 'opacity-600' : 'opacity-0'}`}
                             style={{ backgroundImage: `url(${backgroundImages[backgroundIndex]})` }}
@@ -68,16 +83,18 @@ const Navbar = () => {
 
                 {/* <!-- Social Icons --> */}
                 <div className='flex justify-center'>
-                    <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='mr-5' /></Link>
-                    <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='mr-5' /></Link>
-                    <Link to="https://www.linkedin.com/in/tonmoy-roy-own/"><BsLinkedin className='mr-5' /></Link>
-                    <Link to="https://wa.me/+8801894176266"><MdOutlineLocalPhone /></Link>
+                    <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='mr-5 text-xl' /></Link>
+                    <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='mr-5 text-xl' /></Link>
+                    <Link to="https://www.linkedin.com/in/tonmoy-roy-own/"><BsLinkedin className='mr-5 text-xl' /></Link>
+                    <Link to="https://wa.me/+8801894176266"><MdOutlineLocalPhone className="text-xl" /></Link>
                 </div>
 
                 {/* <!-- Buttons --> */}
                 <div class="mt-6 text-sm font-semibold">
-                    <button class="btn btn-outline">DOWNLOAD RESUME</button>
-                    <button class="btn btn-outline">CONTACT ME</button>
+                    <a href="/public/Resume.pdf" download>
+                        <button class="btn btn-outline mr-2">DOWNLOAD RESUME</button>
+                    </a>
+                    <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline">CONTACT ME</button></Link>
                 </div>
             </div>
 

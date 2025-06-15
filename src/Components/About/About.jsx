@@ -23,7 +23,7 @@ const About = () => {
                     <p className="divider md:w-[30vw]"></p>
                     <div className="mb-5">
                         <p className="text-xl mb-2">Hello, I'm Tonmoy Roy.</p>
-                        <p className="text-gray-600">I am passionate about creating beautiful and functional websites that
+                        <p>I am passionate about creating beautiful and functional websites that
                             people can use and enjoy. I am always looking for new challenges and I am always learning new things.
                         </p>
                     </div>

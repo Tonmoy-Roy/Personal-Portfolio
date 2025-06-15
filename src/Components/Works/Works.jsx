@@ -22,8 +22,8 @@ const Works = () => {
                                 className="md:h-48 rounded-lg mx-auto"
                             />
                         </figure>
-                        <div className="card-body text-center">
-                            <h2 className="card-title justify-center font-bold text-2xl mb-3">
+                        <div className="card-body">
+                            <h2 className="card-title justify-center font-bold text-xl mb-3">
                                 YouTube
                             </h2>
                             <div className="card-actions justify-center gap-5">
@@ -33,7 +33,7 @@ const Works = () => {
                                     </button>
                                 </Link>
                                 <Link to="https://github.com/Tonmoy-Roy/You-Tube">
-                                    <button className="btn bg-gray-800 hover:bg-black text-white transition duration-300">
+                                    <button className="btn btn-neutral hover:bg-black text-white transition duration-300">
                                         GitHub
                                     </button>
                                 </Link>
@@ -51,14 +51,14 @@ const Works = () => {
                             />
                         </figure>
 
-                        <div className="card-body p-4">
-                            <h2 className="card-title justify-center font-bold text-2xl  mb-3">Cyber-Cafe</h2>
+                        <div className="card-body">
+                            <h2 className="card-title justify-center font-bold text-xl  mb-3">Cyber-Cafe</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://cyber-cafe-1.surge.sh/">
                                     <button className="btn btn-neutral">Live Demo</button>
                                 </Link>
                                 <Link to="https://github.com/Tonmoy-Roy/Cyber-Cafe">
-                                    <button className="btn bg-gray-800 hover:bg-black text-white transition duration-300">GitHub</button>
+                                    <button className="btn btn-neutral hover:bg-black text-white transition duration-300">GitHub</button>
                                 </Link>
                             </div>
                         </div>
@@ -73,10 +73,10 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center font-bold text-2xl mb-3">Gadget-Heaven</h2>
+                            <h2 className="card-title justify-center font-bold text-xl mb-3">Gadget-Heaven</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://boisterous-phoenix-758565.netlify.app/"><button className="btn btn-neutral">Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Gadget-Heaven-Router"><button className='btn btn-neutralbtn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Gadget-Heaven-Router"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>
                             </div>
                         </div>
                     </div>
@@ -90,10 +90,10 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center font-bold text-2xl mb-3">Clothing-Donation</h2>
+                            <h2 className="card-title justify-center font-bold text-xl mb-3">Clothing-Donation</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral"> Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Clothing-Donation-Authentication"><button className='btn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Clothing-Donation-Authentication"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>
                             </div>
                         </div>
                     </div>
@@ -107,10 +107,10 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center font-bold text-2xl mb-3">Restaurant-Management</h2>
+                            <h2 className="card-title font-bold text-xl mb-3 md:w-[17vw]">Restaurant-Management</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://restaurant-management-70a73.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Restaurant-Management-System-cs"><button className='btn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Restaurant-Management-System-cs"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>
                             </div>
                         </div>
                     </div>
@@ -124,10 +124,10 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center font-bold text-2xl mb-3">Movie-Verse</h2>
+                            <h2 className="card-title justify-center font-bold text-xl mb-3">Movie-Verse</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://movie-verse-76e61.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Movie-Verse-cs"><button className='btn bg-gray-800 hover:bg-black text-white transition duration-300'>Github</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Movie-Verse-cs"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>
                             </div>
                         </div>
                     </div>

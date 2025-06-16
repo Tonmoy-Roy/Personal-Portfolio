@@ -1,10 +1,35 @@
-import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { AiTwotoneMail } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import emailjs from "emailjs-com";
+import toast from 'react-hot-toast';
+
 
 const Contact = () => {
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const formData = e.target;
+
+
+        emailjs.send(
+            "service_hiiv81g",
+            "template_nzspmdk",
+            {
+                name: formData.name.value,
+                email: formData.email.value,
+                message: formData.area.value,
+            },
+            "dqzfNz7gbv9q-B4mD"
+        )
+            .then(() => {
+                toast.success(`Your Message sent successfully !`);
+                e.target.reset();
+            })
+
+            .catch(() => alert("Failed to send message."));
+    };
     return (
         <div className="md:ml-[20vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10 ">
             <div className="h-full overflow-y-auto">
@@ -39,17 +64,24 @@ const Contact = () => {
                     <p className="text-2xl"><span className="text-yellow-600">C</span>ontact Form</p>
                     <p className="divider md:w-[30vw]"></p>
                     <div className="card-body">
-                        <fieldset className="fieldset">
-                            <label className="label">Full Name</label>
-                            <input type="email" className="input" placeholder="Name" />
-                            <label className="label">Email</label>
-                            <input type="password" className="input mb-3" placeholder="Email" />
-                            <textarea
-                                className="md:w-[21vw] px-3 py-2 border rounded-lg"
-                                placeholder="Enter your text here..."
-                            />
-                            <button className="md:w-[21vw] btn btn-primary mt-4">Submit</button>
-                        </fieldset>
+                        <form onSubmit={handleSubmit}>
+                            <fieldset className="fieldset">
+                                <label className="label">Full Name</label>
+                                <input name="name" type="text" className="input" placeholder="Name" required />
+
+                                <label className="label">Email</label>
+                                <input name="email" type="email" className="input mb-3" placeholder="Email" required />
+
+                                <textarea
+                                    name="area"
+                                    className="md:w-[21vw] px-3 py-2 border rounded-lg"
+                                    placeholder="Enter your text here..."
+                                    required
+                                />
+
+                                <button type="submit" className="md:w-[21vw] btn btn-primary mt-4">Submit</button>
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div>

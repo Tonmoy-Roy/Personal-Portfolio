@@ -13,6 +13,7 @@ import Root from './Components/Root/Root.jsx';
 import About from './Components/About/About.jsx';
 import Works from './Components/Works/Works.jsx';
 import Contact from './Components/Contact/Contact.jsx';
+import { Toaster } from 'react-hot-toast';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,7 @@ createRoot(document.getElementById('root')).render(
     <App />
     <HelmetProvider>
       <RouterProvider router={router} />
+      <Toaster position="top-right" />
     </HelmetProvider>
   </StrictMode>,
 )

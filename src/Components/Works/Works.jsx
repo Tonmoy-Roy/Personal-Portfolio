@@ -1,6 +1,6 @@
 import React from 'react';
 import youtube from "../../assets/icons/youtube.png"
-import cyber from "../../assets/icons/cyber.jpg"
+import cyber from "../../assets/icons/vitaly-gariev-1JnN9QhmTGU-unsplash.jpg"
 import gadget from "../../assets/icons/Products.avif"
 import cloth from "../../assets/icons/cloth.jpg"
 import Restaurant from "../../assets/icons/Food.avif"
@@ -52,12 +52,12 @@ const Works = () => {
                         </figure>
 
                         <div className="card-body">
-                            <h2 className="card-title justify-center font-bold text-xl  mb-3">Cyber-Cafe</h2>
+                            <h2 className="card-title justify-center font-bold text-xl  mb-3">Qtech-Ecommerce</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://cyber-cafe-1.surge.sh/">
+                                <Link to="https://ephemeral-stroopwafel-0b1394.netlify.app/">
                                     <button className="btn btn-neutral">Live Demo</button>
                                 </Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Cyber-Cafe">
+                                <Link to="https://github.com/Tonmoy-Roy/Qtech-ECommerce">
                                     <button className="btn btn-neutral hover:bg-black text-white transition duration-300">GitHub</button>
                                 </Link>
                             </div>
@@ -90,7 +90,7 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center font-bold text-xl mb-3">Clothing-Donation</h2>
+                            <h2 className="card-title justify-center font-bold text-xl mb-3">Donate-Authentication</h2>
                             <div className="card-actions justify-evenly">
                                 <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral"> Live Demo</button></Link>
                                 <Link to="https://github.com/Tonmoy-Roy/Clothing-Donation-Authentication"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>

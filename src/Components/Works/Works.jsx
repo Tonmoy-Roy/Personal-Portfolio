@@ -14,12 +14,12 @@ const Works = () => {
                 <p className="text-2xl"><span className="text-yellow-600">W</span>orks</p>
                 <p className="divider md:w-[30vw]"></p>
                 <div className='md:grid grid-cols-3 gap-8'>
-                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
-                        <figure className="transition-transform duration-700 hover:scale-105">
+                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure>
                             <img
                                 src={youtube}
                                 alt="YouTube"
-                                className="md:h-48 rounded-lg mx-auto"
+                                className="md:h-48 rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
                             />
                         </figure>
                         <div className="card-body">
@@ -42,12 +42,11 @@ const Works = () => {
                     </div>
 
 
-                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
-                        <figure className="transition-transform duration-700 hover:scale-105">
+                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure>
                             <img
-                                src={cyber}
-                                alt="Cyber-Cafe"
-                                className="md:h-48 rounded-lg mx-auto"
+                                src={cyber} alt="Cyber-Cafe"
+                                className="md:h-48 rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
                             />
                         </figure>
 
@@ -64,12 +63,12 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
-                        <figure className="transition-transform duration-700 hover:scale-105">
+                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure>
                             <img
                                 src={gadget}
                                 alt="Cyber-Cafe"
-                                className="md:h-48 rounded-lg mx-auto"
+                                className="md:h-48 rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
                             />
                         </figure>
                         <div className="card-body">
@@ -81,12 +80,12 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
-                        <figure className="transition-transform duration-700 hover:scale-105">
+                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure>
                             <img
                                 src={cloth}
                                 alt="Cyber-Cafe"
-                                className="md:h-48 rounded-lg mx-auto md:w-[18vw]"
+                                className="md:h-48 rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105 md:w-[18vw]"
                             />
                         </figure>
                         <div className="card-body">
@@ -98,12 +97,12 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
-                        <figure className="transition-transform duration-700 hover:scale-105">
+                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure>
                             <img
                                 src={Restaurant}
                                 alt="Cyber-Cafe"
-                                className="md:h-48 rounded-lg mx-auto"
+                                className="md:h-48 rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
                             />
                         </figure>
                         <div className="card-body">
@@ -115,12 +114,12 @@ const Works = () => {
                         </div>
                     </div>
 
-                    <div className="border-4 rounded-xl overflow-hidden shadow-md transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl bg-gradient-to-br mb-5">
-                        <figure className="transition-transform duration-700 hover:scale-105">
+                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure>
                             <img
                                 src={Movie}
                                 alt="Cyber-Cafe"
-                                className="md:h-48 rounded-lg mx-auto"
+                                className="md:h-48 rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
                             />
                         </figure>
                         <div className="card-body">

@@ -10,12 +10,13 @@ import { MdOutlineLocalPhone } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
 import { GrProjects } from "react-icons/gr";
 import { FaPhoneAlt } from "react-icons/fa";
-
 const Navbar = () => {
     const links = <>
-        <li className="btn btn-outline mr-5 mb-3 md:w-[7vw]"><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
-        <li className="btn btn-outline mb-3 mr-5 md:w-[7vw]"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
-        <li className="btn btn-outline md:w-[7vw]"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
+        <div className="flex md:block">
+            <li className="btn btn-outline mr-5 mb-3 md:w-[7vw] w-[37vw] hover:bg-orange-600 hover:text-white"><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
+            <li className="btn btn-outline mb-3 mr-5 md:w-[7vw] hover:bg-orange-600 hover:text-white w-[37vw]"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
+        </div>
+        <li className="btn btn-outline md:w-[7vw] hover:bg-orange-600 hover:text-white w-[37vw] ml-[18vw] md:ml-0"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
     </>
 
     const backgroundImages = [img1];
@@ -34,8 +35,7 @@ const Navbar = () => {
             </div>
 
             {/* Profile */}
-            <div className=" shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] rounded border-2">
-                {/* Background Image Container - Now at the top */}
+            <div className=" shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[95vh] rounded border-2">
                 <div className="background-container">
                     <div className="md:w-[303px] h-72 relative">
                         <div
@@ -45,7 +45,6 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                {/* Profile Image - Positioned below the background */}
                 <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white relative -mt-16 z-10">
                     <img src={porfileimg} alt="Profile" className="w-full h-full object-cover" />
                 </div>
@@ -66,7 +65,7 @@ const Navbar = () => {
 
                 {/* <!-- Social Icons --> */}
                 <div className='flex justify-center'>
-                    <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='mr-5 text-xl' /></Link>
+                    <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='mr-5 text-xl ' /></Link>
                     <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='mr-5 text-xl' /></Link>
                     <Link to="https://www.linkedin.com/in/tonmoy-roy-own/"><BsLinkedin className='mr-5 text-xl' /></Link>
                     <Link to="https://wa.me/+8801894176266"><MdOutlineLocalPhone className="text-xl" /></Link>
@@ -75,9 +74,9 @@ const Navbar = () => {
                 {/* <!-- Buttons --> */}
                 <div class="mt-6 text-sm font-semibold">
                     <a href="/Resume.pdf" download>
-                        <button class="btn btn-outline mr-2">DOWNLOAD RESUME</button>
+                        <button class="btn btn-outline mr-2 hover:bg-orange-600 hover:text-white mb-5">DOWNLOAD RESUME</button>
                     </a>
-                    <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline">CONTACT ME</button></Link>
+                    <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline hover:bg-orange-600 hover:text-white mb-5 w-[54vw] md:w-[8vw]">CONTACT ME</button></Link>
                 </div>
             </div>
         </div>

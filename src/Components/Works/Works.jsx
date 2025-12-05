@@ -1,4 +1,3 @@
-import React from 'react';
 import youtube from "../../assets/icons/youtube.png"
 import cyber from "../../assets/icons/vitaly-gariev-1JnN9QhmTGU-unsplash.jpg"
 import gadget from "../../assets/icons/Products.avif"

@@ -1,6 +1,6 @@
-import porfileimg from "../../assets/profile.png"
+import porfileimg from "../../../src/assets/profile1.png";
 import { Typewriter } from 'react-simple-typewriter';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import img1 from "../../assets/pexels-catiamatos-1072179.jpg";
 import { Link, NavLink } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
@@ -12,21 +12,7 @@ import { GrProjects } from "react-icons/gr";
 import { FaPhoneAlt } from "react-icons/fa";
 
 const Navbar = () => {
-    // const [isDark, setIsDark] = useState(true);
-    // useEffect(() => {
-    //     const storedTheme = localStorage.getItem("theme");
-    //     document.documentElement.setAttribute("data-theme", storedTheme || "dark");
-    //     setIsDark(storedTheme === "light");
-    // }, []);
-
-    // const toggleTheme = () => {
-    //     const newTheme = isDark ? "dark" : "light";
-    //     document.documentElement.setAttribute("data-theme", newTheme);
-    //     localStorage.setItem("theme", newTheme);
-    //     setIsDark(!isDark);
-    // };
     const links = <>
-        {/* <input onClick={toggleTheme} type="checkbox" checked={isDark} className="toggle btn mr-5 mb-3" readOnly /> */}
         <li className="btn btn-outline mr-5 mb-3 md:w-[7vw]"><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
         <li className="btn btn-outline mb-3 mr-5 md:w-[7vw]"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
         <li className="btn btn-outline md:w-[7vw]"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
@@ -35,8 +21,6 @@ const Navbar = () => {
     const backgroundImages = [img1];
     const [backgroundIndex, setBackgroundIndex] = useState(0);
     const [fade, setFade] = useState(true);
-
-
 
     return (
         <div className="md:flex">
@@ -96,8 +80,6 @@ const Navbar = () => {
                     <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline">CONTACT ME</button></Link>
                 </div>
             </div>
-
-            {/* Main Content */}
         </div>
     );
 };

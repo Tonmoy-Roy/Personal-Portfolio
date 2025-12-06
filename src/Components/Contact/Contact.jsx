@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import emailjs from "emailjs-com";
 import toast from 'react-hot-toast';
 
-
 const Contact = () => {
 
     const handleSubmit = (e) => {
@@ -69,7 +68,7 @@ const Contact = () => {
                                 <input name="name" type="text" className="input" placeholder="Name" required />
 
                                 <label className="label">Email</label>
-                                <input name="email" type="email" className="input mb-3" placeholder="Email" required />
+                                <input name="email" type="email" className="input mb-3 " placeholder="Email" required />
 
                                 <textarea
                                     name="area"

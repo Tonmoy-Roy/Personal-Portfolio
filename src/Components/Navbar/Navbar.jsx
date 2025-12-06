@@ -13,10 +13,10 @@ import { FaPhoneAlt } from "react-icons/fa";
 const Navbar = () => {
     const links = <>
         <div className="flex md:block">
-            <li className="btn btn-outline mr-5 mb-3 md:w-[7vw] w-[37vw] hover:bg-orange-600 hover:text-white"><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
-            <li className="btn btn-outline mb-3 mr-5 md:w-[7vw] hover:bg-orange-600 hover:text-white w-[37vw]"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
+            <li className="btn btn-outline mr-5 mb-3 md:w-[6vw] w-[37vw] hover:bg-orange-600 hover:text-white b "><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
+            <li className="btn btn-outline mb-3 mr-5 md:w-[6vw] hover:bg-orange-600 hover:text-white w-[37vw]"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
         </div>
-        <li className="btn btn-outline md:w-[7vw] hover:bg-orange-600 hover:text-white w-[37vw] ml-[18vw] md:ml-0"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
+        <li className="btn btn-outline md:w-[6vw] hover:bg-orange-600 hover:text-white w-[37vw] ml-[18vw] md:ml-0"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
     </>
 
     const backgroundImages = [img1];
@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
 
             {/* Profile */}
-            <div className=" shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[95vh] rounded border-2">
+            <div className=" shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] rounded border-2">
                 <div className="background-container">
                     <div className="md:w-[303px] h-72 relative">
                         <div
@@ -73,7 +73,7 @@ const Navbar = () => {
 
                 {/* <!-- Buttons --> */}
                 <div class="mt-6 text-sm font-semibold">
-                    <a href="/Resume.pdf" download>
+                    <a href="/Tonmoy_Roy_Resume.pdf" download>
                         <button class="btn btn-outline mr-2 hover:bg-orange-600 hover:text-white mb-5">DOWNLOAD RESUME</button>
                     </a>
                     <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline hover:bg-orange-600 hover:text-white mb-5 w-[54vw] md:w-[8vw]">CONTACT ME</button></Link>

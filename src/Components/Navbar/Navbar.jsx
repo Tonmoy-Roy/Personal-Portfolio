@@ -75,10 +75,10 @@ const Navbar = () => {
 
                 {/* <!-- Buttons --> */}
                 <div className="md:flex mt-6 text-sm font-semibold">
-                    <div>
+                    <div className="h-12 md:w-[12vw] ml-16 md:ml-0">
                         <a href="/Tonmoy_Roy_Resume.pdf" download>
                             <div className="buttons">
-                                <button className="btn btn-outline mr-2 mb-5 text-white blob-btn ml-2">DOWNLOAD RESUME
+                                <button className="btn btn-outline mb-5 text-white blob-btn ml-1">DOWNLOAD RESUME
                                     <span className="blob-btn__inner">
                                         <span className="blob-btn__blobs">
                                             <span className="blob-btn__blob"></span>
@@ -103,7 +103,7 @@ const Navbar = () => {
                         </a>
                     </div>
                     <div>
-                        <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline mb-5 w-[54vw] md:w-[8vw] glow-on-hover ">CONTACT ME</button></Link>
+                        <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline mb-5 mr-2 w-[43vw] md:w-[8vw] glow-on-hover ">CONTACT ME</button></Link>
                     </div>
                 </div>
             </div >

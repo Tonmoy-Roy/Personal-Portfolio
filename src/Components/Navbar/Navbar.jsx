@@ -10,13 +10,15 @@ import { MdOutlineLocalPhone } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
 import { GrProjects } from "react-icons/gr";
 import { FaPhoneAlt } from "react-icons/fa";
+import './Navbar.scss';
+
 const Navbar = () => {
     const links = <>
         <div className="flex md:block">
-            <li className="btn btn-outline mr-5 mb-3 md:w-[6vw] w-[37vw] hover:bg-orange-600 hover:text-white b "><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
-            <li className="btn btn-outline mb-3 mr-5 md:w-[6vw] hover:bg-orange-600 hover:text-white w-[37vw]"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
+            <li className="btn btn-outline button mr-5 mb-3 md:w-[6vw] w-[37vw] py-1 md:h-[6vh]"><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
+            <li className="btn btn-outline mb-3 button mr-5 md:w-[6vw] hover:text-white w-[37vw] py-1"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
         </div>
-        <li className="btn btn-outline md:w-[6vw] hover:bg-orange-600 hover:text-white w-[37vw] ml-[18vw] md:ml-0"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
+        <li className="btn btn-outline md:w-[6vw] button hover:text-white w-[37vw] ml-[18vw] md:ml-0 py-1"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
     </>
 
     const backgroundImages = [img1];
@@ -72,14 +74,40 @@ const Navbar = () => {
                 </div>
 
                 {/* <!-- Buttons --> */}
-                <div class="mt-6 text-sm font-semibold">
-                    <a href="/Tonmoy_Roy_Resume.pdf" download>
-                        <button class="btn btn-outline mr-2 hover:bg-orange-600 hover:text-white mb-5">DOWNLOAD RESUME</button>
-                    </a>
-                    <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline hover:bg-orange-600 hover:text-white mb-5 w-[54vw] md:w-[8vw]">CONTACT ME</button></Link>
+                <div className="md:flex mt-6 text-sm font-semibold">
+                    <div>
+                        <a href="/Tonmoy_Roy_Resume.pdf" download>
+                            <div className="buttons">
+                                <button className="btn btn-outline mr-2 mb-5 text-white blob-btn ml-2">DOWNLOAD RESUME
+                                    <span className="blob-btn__inner">
+                                        <span className="blob-btn__blobs">
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                            <span className="blob-btn__blob"></span>
+                                        </span>
+                                    </span>
+                                </button>
+                                <div className="md:w-[10vw] md:h-[2vh]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                        <defs>
+                                            <filter id="goo">
+                                                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                                                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline mb-5 w-[54vw] md:w-[8vw] glow-on-hover ">CONTACT ME</button></Link>
+                    </div>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 

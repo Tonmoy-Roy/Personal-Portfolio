@@ -2,7 +2,7 @@ import { motion as Motion } from "framer-motion";
 
 const HoverCard = ({ img, title, desc }) => {
     return (
-        <div className="relative overflow-hidden group md:h-80 border-2 md:w-60 py-8 px-5 rounded mb-5 bg-white">
+        <div className="relative overflow-hidden group md:h-80 border-2 md:w-60 py-8 px-5 rounded bg-white">
 
             {/* Hover Gradient Layer */}
             <div className="absolute inset-0 bg-gradient-to-r from-violet-600 to-indigo-600 

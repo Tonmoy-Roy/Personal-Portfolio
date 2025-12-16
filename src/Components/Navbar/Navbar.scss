@@ -42,6 +42,57 @@ $color: black;
   }
 }
 
+.neon-card {
+  position: relative;
+  border-radius: 0.75rem;
+  background: #000;
+  overflow: hidden;
+  border: 2px solid transparent;
+}
+
+/* Neon rotating border */
+.neon-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: inherit;
+
+  background: conic-gradient(#00f6ff,
+      #ff00ff,
+      #00ff85,
+      #00f6ff);
+
+  /* show ONLY border */
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+
+  opacity: 0;
+  animation: neonRotate 3s linear infinite;
+  transition: opacity 0.3s ease;
+}
+
+/* Hover trigger */
+.neon-card:hover::before {
+  opacity: 1;
+}
+
+@keyframes neonRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
 // contact animation
 .glow-on-hover {
   border: none;

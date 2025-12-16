@@ -4,7 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
-
+body {
+  background-color: #2d2d2d;
+  color: white; /* This is the hex value for slate-600 */
+}
 .logo {
   height: 6em;
   padding: 1.5em;

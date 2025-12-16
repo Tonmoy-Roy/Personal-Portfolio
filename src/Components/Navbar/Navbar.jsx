@@ -1,4 +1,4 @@
-import porfileimg from "../../../src/assets/profile1.png";
+import porfileimg from "../../../src/assets/profile5~2.jpg";
 import { Typewriter } from 'react-simple-typewriter';
 import { useState } from "react";
 import img1 from "../../assets/pexels-catiamatos-1072179.jpg";
@@ -15,10 +15,10 @@ import './Navbar.scss';
 const Navbar = () => {
     const links = <>
         <div className="flex md:block">
-            <li className="btn btn-outline button mr-5 mb-3 md:w-[6vw] w-[37vw] py-1 md:h-[6vh]"><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
-            <li className="btn btn-outline mb-3 button mr-5 md:w-[6vw] hover:text-white w-[37vw] py-1"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
+            <li className="btn button mr-5 mb-3 md:w-[6vw] w-[37vw] py-1 md:h-[6vh]"><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
+            <li className="btn mb-3 button mr-5 md:w-[6vw] hover:text-white w-[37vw] py-1"><NavLink to="/works">Works <GrProjects className="xl" /> </NavLink></li>
         </div>
-        <li className="btn btn-outline md:w-[6vw] button hover:text-white w-[37vw] ml-[18vw] md:ml-0 py-1"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
+        <li className="btn md:w-[6vw] button hover:text-white w-[37vw] ml-[18vw] md:ml-0 py-1"><NavLink to="/contact">Contact <FaPhoneAlt className="xl" /></NavLink></li>
     </>
 
     const backgroundImages = [img1];
@@ -28,7 +28,7 @@ const Navbar = () => {
     return (
         <div className="md:flex">
             {/* Navbar */}
-            <div className="navbar bg-base-100 shadow-sm md:fixed left-0 md:w-[6vw] md:h-[80vh] ml-[1vw]">
+            <div className="navbar shadow-sm md:fixed left-0 md:w-[6vw] md:h-[80vh] ml-[1vw]">
                 <div className="sm:flex">
                     <ul className="menu sm:menu-vertical menu-horizontal px-1">
                         {links}
@@ -37,7 +37,7 @@ const Navbar = () => {
             </div>
 
             {/* Profile */}
-            <div className=" shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] rounded border-2">
+            <div className="shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] rounded border border-gray-600">
                 <div className="background-container">
                     <div className="md:w-[303px] h-72 relative">
                         <div
@@ -48,12 +48,12 @@ const Navbar = () => {
                 </div>
 
                 <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white relative -mt-16 z-10">
-                    <img src={porfileimg} alt="Profile" className="w-full h-full object-cover" />
+                    <img src={porfileimg} alt="Profile" className="w-full md:h-[23vh] object-cover" />
                 </div>
 
                 {/* <!-- Name & Title --> */}
                 <h2 class="text-2xl font-bold mt-4">Tonmoy Roy</h2>
-                <div className="text-yellow-600 mb-3">
+                <div className="mb-3 text-yellow-600">
                     <Typewriter
                         words={['Programmer', 'Web Developer', 'Researcher']}
                         loop={true}
@@ -68,7 +68,7 @@ const Navbar = () => {
                 {/* <!-- Social Icons --> */}
                 <div className='flex justify-center'>
                     <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='mr-5 text-xl'/></Link>
-                    <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='mr-5 text-xl'/></Link>
+                    <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='mr-5 text-xl '/></Link>
                     <Link to="https://www.linkedin.com/in/tonmoy-roy-own/"><BsLinkedin className='mr-5 text-xl'/></Link>
                     <Link to="https://wa.me/+8801894176266"><MdOutlineLocalPhone className="text-xl"/></Link>
                 </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
                     <div className="h-12 md:w-[12vw] ml-16 md:ml-0">
                         <a href="/Tonmoy_Roy_Resume.pdf" download>
                             <div className="buttons">
-                                <button className="btn btn-outline mb-5 text-white blob-btn ml-1">DOWNLOAD RESUME
+                                <button className="btn btn-outline mb-5  blob-btn ml-1">DOWNLOAD RESUME
                                     <span className="blob-btn__inner">
                                         <span className="blob-btn__blobs">
                                             <span className="blob-btn__blob"></span>

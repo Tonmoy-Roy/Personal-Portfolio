@@ -20,17 +20,17 @@ const About = () => {
             {/* Scrollable inner container */}
             <div className="h-full overflow-y-auto">
                 <div className="md:mt-0 p-6 text-left">
-                    <p className="text-2xl"><span className="text-yellow-600">A</span>bout Me</p>
-                    <p className="divider md:w-[30vw]"></p>
+                    <p className="text-xl font-semibold text-gray-200"><span className="text-yellow-600">A</span>bout Me</p>
+                    <p className="divider md:w-[30vw] bg-gray-600 h-[1px]"></p>
                     <div className="mb-5">
-                        <p className="text-xl mb-2">Hello, I'm Tonmoy Roy.</p>
-                        <p>I am passionate about creating beautiful and functional websites that
+                        <p className="text-lg mb-2 font-semibold text-gray-200">Hello! I'm Tonmoy Roy.</p>
+                        <p className="text-gray-300">I am passionate about creating beautiful and functional websites that
                             people can use and enjoy. I am always looking for new challenges and I am always learning new things.
                         </p>
                     </div>
                     <div>
-                        <p className="text-2xl"><span className="text-yellow-600">M</span>y Services</p>
-                        <p className="divider md:w-[30vw]"></p>
+                        <p className="text-xl font-semibold text-gray-200"><span className="text-yellow-600">M</span>y Services</p>
+                        <p className="divider md:w-[30vw] bg-gray-600 h-[1px]"></p>
                     </div>
                     <div className="md:flex justify-around p-5 mx-auto">
                         <HoverCard

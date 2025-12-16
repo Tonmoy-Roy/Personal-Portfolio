@@ -1,9 +1,9 @@
 import youtube from "../../assets/icons/10039.jpg"
-import cyber from "../../assets/icons/vitaly-gariev-1JnN9QhmTGU-unsplash.jpg"
-import gadget from "../../assets/icons/Products.avif"
-import cloth from "../../assets/icons/cloth.jpg"
-import Restaurant from "../../assets/icons/Food.avif"
-import Movie from "../../assets/icons/jakob-owens-CiUR8zISX60-unsplash.jpg"
+import Ecommerce from "../../assets/icons/ecommerce-tech-trends_0.jpg"
+import cloth from "../../assets/icons/auth.avif"
+import Food from "../../assets/icons/Food.png"
+import Movie from "../../assets/icons/movie.jpg"
+import salis from '../../assets/icons/Dashboard Mockup 1.2 1.png'
 import { Link } from 'react-router-dom';
 
 const Works = () => {
@@ -27,7 +27,7 @@ const Works = () => {
                             </h2>
                             <div className="card-actions justify-center gap-5">
                                 <Link to="https://jewellery-shopping-fn4z.vercel.app/">
-                                    <button className="btn btn-neutral">
+                                    <button className="btn btn-neutral glow-on-hover">
                                         Live Demo
                                     </button>
                                 </Link>
@@ -43,70 +43,15 @@ const Works = () => {
                     <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
                         <figure>
                             <img
-                                src={cyber} alt="Cyber-Cafe"
-                                className="md:h-[31vh] md:w-[18.5vw] rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
-                            />
-                        </figure>
-
-                        <div className="card-body">
-                            <h2 className="card-title justify-center font-bold text-xl  mb-3">Qtech Ecommerce</h2>
-                            <div className="card-actions justify-evenly">
-                                <Link to="https://ephemeral-stroopwafel-0b1394.netlify.app/">
-                                    <button className="btn btn-neutral">Live Demo</button>
-                                </Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Qtech-ECommerce">
-                                    <button className="btn btn-neutral hover:bg-black text-white transition duration-300">GitHub</button>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
-                        <figure>
-                            <img
-                                src={gadget}
+                                src={Food}
                                 alt="Cyber-Cafe"
                                 className="md:h-[31vh] md:w-[18.5vw] rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center font-bold text-xl mb-3">Gadget Heaven</h2>
+                            <h2 className="card-title font-bold text-xl mb-3 md:w-[17vw]">Food Ordering System</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://boisterous-phoenix-758565.netlify.app/"><button className="btn btn-neutral">Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Gadget-Heaven-Router"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
-                        <figure>
-                            <img
-                                src={cloth}
-                                alt="Cyber-Cafe"
-                                className="h-[35vh] w-[90vw] md:h-[31vh] md:w-[18.5vw] rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
-                            />
-                        </figure>
-                        <div className="card-body">
-                            <h2 className="card-title justify-center font-bold text-xl mb-3">Donate Authentication</h2>
-                            <div className="card-actions justify-evenly">
-                                <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral"> Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Clothing-Donation-Authentication"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
-                        <figure>
-                            <img
-                                src={Restaurant}
-                                alt="Cyber-Cafe"
-                                className="md:h-[31vh] md:w-[18.5vw] rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
-                            />
-                        </figure>
-                        <div className="card-body">
-                            <h2 className="card-title font-bold text-xl mb-3 md:w-[17vw]">Restaurant Management</h2>
-                            <div className="card-actions justify-evenly">
-                                <Link to="https://restaurant-management-70a73.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
+                                <Link to="https://restaurant-management-70a73.web.app/"><button className="btn btn-neutral glow-on-hover">Live Demo</button></Link>
                                 <Link to="https://github.com/Tonmoy-Roy/Restaurant-Management-System-cs"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>
                             </div>
                         </div>
@@ -121,13 +66,70 @@ const Works = () => {
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title justify-center font-bold text-xl mb-3">Movie Verse</h2>
+                            <h2 className="card-title justify-center font-bold text-xl mb-3">Movie Watchlist</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://movie-verse-76e61.web.app/"><button className="btn btn-neutral">Live Demo</button></Link>
+                                <Link to="https://movie-verse-76e61.web.app/"><button className="btn btn-neutral glow-on-hover">Live Demo</button></Link>
                                 <Link to="https://github.com/Tonmoy-Roy/Movie-Verse-cs"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>
                             </div>
                         </div>
                     </div>
+
+                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure>
+                            <img
+                                src={salis}
+                                alt="Cyber-Cafe"
+                                className="md:h-[31vh] md:w-[18.5vw] rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
+                            />
+                        </figure>
+                        <div className="card-body">
+                            <h2 className="card-title justify-center font-bold text-xl mb-3">Salis Erp Landing Page</h2>
+                            <div className="card-actions justify-evenly">
+                                <Link to="https://boisterous-phoenix-758565.netlify.app/"><button className="btn btn-neutral glow-on-hover">Live Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Gadget-Heaven-Router"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure>
+                            <img
+                                src={cloth}
+                                alt="Cyber-Cafe"
+                                className="h-[35vh] w-[90vw] md:h-[31vh] md:w-[18.5vw] rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
+                            />
+                        </figure>
+                        <div className="card-body">
+                            <h2 className="card-title justify-center font-bold text-xl mb-3">Donate Authentication</h2>
+                            <div className="card-actions justify-evenly">
+                                <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral glow-on-hover"> Live Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Clothing-Donation-Authentication"><button className='btn btn-neutral hover:bg-black text-white transition duration-300'>Github</button></Link>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="border-2 rounded-xl overflow-hidden group shadow-md hover:shadow-xl bg-gradient-to-br mb-5">
+                        <figure>
+                            <img
+                                src={Ecommerce} alt="Cyber-Cafe"
+                                className="md:h-[31vh] md:w-[18.5vw] rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
+                            />
+                        </figure>
+
+                        <div className="card-body">
+                            <h2 className="card-title justify-center font-bold text-xl  mb-3">Qtech Ecommerce</h2>
+                            <div className="card-actions justify-evenly">
+                                <Link to="https://ephemeral-stroopwafel-0b1394.netlify.app/">
+                                    <button className="btn btn-neutral glow-on-hover">Live Demo</button>
+                                </Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Qtech-ECommerce">
+                                    <button className="btn btn-neutral hover:bg-black text-white transition duration-300">GitHub</button>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -67,10 +67,10 @@ const Navbar = () => {
 
                 {/* <!-- Social Icons --> */}
                 <div className='flex justify-center'>
-                    <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='mr-5 text-xl ' /></Link>
-                    <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='mr-5 text-xl' /></Link>
-                    <Link to="https://www.linkedin.com/in/tonmoy-roy-own/"><BsLinkedin className='mr-5 text-xl' /></Link>
-                    <Link to="https://wa.me/+8801894176266"><MdOutlineLocalPhone className="text-xl" /></Link>
+                    <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='mr-5 text-xl'/></Link>
+                    <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='mr-5 text-xl'/></Link>
+                    <Link to="https://www.linkedin.com/in/tonmoy-roy-own/"><BsLinkedin className='mr-5 text-xl'/></Link>
+                    <Link to="https://wa.me/+8801894176266"><MdOutlineLocalPhone className="text-xl"/></Link>
                 </div>
 
                 {/* <!-- Buttons --> */}
@@ -103,7 +103,7 @@ const Navbar = () => {
                         </a>
                     </div>
                     <div>
-                        <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline mb-5 mr-2 w-[43vw] md:w-[8vw] glow-on-hover ">CONTACT ME</button></Link>
+                        <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline mb-5 mr-3 w-[43vw] md:w-[8vw] glow-on-hover ">CONTACT ME</button></Link>
                     </div>
                 </div>
             </div >

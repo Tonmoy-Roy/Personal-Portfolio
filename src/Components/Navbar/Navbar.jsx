@@ -52,8 +52,8 @@ const Navbar = () => {
                 </div>
 
                 {/* <!-- Name & Title --> */}
-                <h2 class="text-2xl font-bold mt-4">Tonmoy Roy</h2>
-                <div className="mb-3 text-yellow-600">
+                <h2 class="text-2xl font-bold mt-4 text-gray-200">Tonmoy Roy</h2>
+                <div className="mb-3 text-yellow-500">
                     <Typewriter
                         words={['Programmer', 'Web Developer', 'Researcher']}
                         loop={true}
@@ -103,7 +103,7 @@ const Navbar = () => {
                         </a>
                     </div>
                     <div>
-                        <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline mb-5 mr-3 w-[43vw] md:w-[8vw] glow-on-hover ">CONTACT ME</button></Link>
+                        <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline mb-5 mr-3 w-[43vw] md:w-[8vw] glow-on-hover text-gray-200">CONTACT ME</button></Link>
                     </div>
                 </div>
             </div >

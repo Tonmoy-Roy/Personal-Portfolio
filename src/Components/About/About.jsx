@@ -92,12 +92,12 @@ const About = () => {
                         />
                     </div>
                     <div>
-                        <p className="text-2xl"><span className="text-yellow-600">M</span>y Online Judge</p>
-                        <p className="divider md:w-[30vw]"></p>
+                        <p className="text-xl font-semibold text-gray-200"><span className="text-yellow-600">M</span>y Online Judge</p>
+                        <p className="divider md:w-[30vw] bg-gray-600 h-[1px]"></p>
                         <div className="md:flex justify-start md:ml-[3vw]">
-                            <a href="https://codeforces.com/profile/Tonmoy_Roy"><Lottie className="mr-10 md:h-[10vh] md:w-[5vw] mb-3" animationData={codeforces}></Lottie></a>
-                            <a href="https://atcoder.jp/users/Tonmoy_Roy"><img src={atcoder} alt="codechef" className="mr-10 md:h-[10vh] md:w-[5vw] mb-3" /></a>
-                            <a href="https://drive.google.com/file/d/1oe8MekuU-MAZbClL1bevvfZg3f6WLRDz/view?usp=sharing"><img src={icpc} alt="" className="md:h-[10vh] md:w-[5vw] rounded" /></a>
+                            <a href="https://codeforces.com/profile/Tonmoy_Roy"><Lottie className="mr-10 md:h-[10vh] h-20 md:w-[5vw] mb-3" animationData={codeforces}></Lottie></a>
+                            <a href="https://atcoder.jp/users/Tonmoy_Roy" className="flex justify-center items-center"><img src={atcoder} alt="codechef" className="mr-10 md:h-[10vh] h-20 md:w-[5vw] mb-3 bg-white rounded p-1" /></a>
+                            <a href="https://drive.google.com/file/d/1oe8MekuU-MAZbClL1bevvfZg3f6WLRDz/view?usp=sharing" className="flex justify-center items-center md:mt-[-1.7vh] mt-0"><img src={icpc} alt="" className="md:h-[10vh] md:w-[5vw] rounded h-20 mr-10 md:mr-0 w-24 " /></a>
                         </div>
                     </div>
                 </div>

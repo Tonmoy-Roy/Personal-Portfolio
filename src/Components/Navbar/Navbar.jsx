@@ -27,17 +27,8 @@ const Navbar = () => {
 
     return (
         <div className="md:flex">
-            {/* Navbar */}
-            <div className="navbar shadow-sm md:fixed left-0 md:w-[6vw] md:h-[80vh] ml-[1vw]">
-                <div className="sm:flex">
-                    <ul className="menu sm:menu-vertical menu-horizontal px-1">
-                        {links}
-                    </ul>
-                </div>
-            </div>
-
             {/* Profile */}
-            <div className="shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] rounded border border-gray-600">
+            <div className="shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] rounded border border-gray-600 mb-10">
                 <div className="background-container">
                     <div className="md:w-[303px] h-72 relative">
                         <div
@@ -67,10 +58,10 @@ const Navbar = () => {
 
                 {/* <!-- Social Icons --> */}
                 <div className='flex justify-center'>
-                    <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='mr-5 text-xl'/></Link>
-                    <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='mr-5 text-xl '/></Link>
-                    <Link to="https://www.linkedin.com/in/tonmoy-roy-own/"><BsLinkedin className='mr-5 text-xl'/></Link>
-                    <Link to="https://wa.me/+8801894176266"><MdOutlineLocalPhone className="text-xl"/></Link>
+                    <Link to="mailto:roytonmoy901@gmail.com"><AiTwotoneMail className='mr-5 text-xl' /></Link>
+                    <Link to="https://github.com/Tonmoy-Roy"><FaGithub className='mr-5 text-xl ' /></Link>
+                    <Link to="https://www.linkedin.com/in/tonmoy-roy-own/"><BsLinkedin className='mr-5 text-xl' /></Link>
+                    <Link to="https://wa.me/+8801894176266"><MdOutlineLocalPhone className="text-xl" /></Link>
                 </div>
 
                 {/* <!-- Buttons --> */}
@@ -78,7 +69,7 @@ const Navbar = () => {
                     <div className="h-12 md:w-[12vw] ml-16 md:ml-0">
                         <a href="/Tonmoy_Roy_Resume.pdf" download>
                             <div className="buttons">
-                                <button className="btn btn-outline mb-5  blob-btn ml-1">DOWNLOAD RESUME
+                                <button className="btn btn-outline mb-5  blob-btn ml-8 md:ml-0">DOWNLOAD RESUME
                                     <span className="blob-btn__inner">
                                         <span className="blob-btn__blobs">
                                             <span className="blob-btn__blob"></span>
@@ -103,10 +94,19 @@ const Navbar = () => {
                         </a>
                     </div>
                     <div>
-                        <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline mb-5 mr-3 w-[43vw] md:w-[8vw] glow-on-hover text-gray-200">CONTACT ME</button></Link>
+                        <Link to="mailto:roytonmoy901@gmail.com"><button class="btn btn-outline mb-5 mr-3 w-[43vw] md:w-[8vw] glow-on-hover text-gray-200 ">CONTACT ME</button></Link>
                     </div>
                 </div>
             </div >
+
+            {/* Navbar */}
+            <div className="navbar shadow-sm md:fixed left-0 md:w-[6vw] md:h-[80vh] ml-[1vw]">
+                <div className="sm:flex">
+                    <ul className="menu sm:menu-vertical menu-horizontal px-1">
+                        {links}
+                    </ul>
+                </div>
+            </div>
         </div >
     );
 };

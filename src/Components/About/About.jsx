@@ -11,13 +11,11 @@ import codeforces from "../../../public/code-forces.json"
 import atcoder from "../../assets/icons/logo_bk.svg"
 import icpc from "../../assets/icons/icpc.png"
 import Lottie from "lottie-react";
-import { motion as Motion } from "framer-motion";
 import HoverCard from "./HoverCard"
 
 const About = () => {
     return (
         <div className="md:ml-[20vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10 ">
-            {/* Scrollable inner container */}
             <div className="h-full overflow-y-auto">
                 <div className="md:mt-0 p-6 text-left">
                     <p className="text-xl font-semibold text-gray-200"><span className="text-yellow-600">A</span>bout Me</p>
@@ -25,7 +23,7 @@ const About = () => {
                     <div className="mb-5">
                         <p className="text-lg mb-2 font-semibold text-gray-200">Hello! I'm Tonmoy Roy.</p>
                         <p className="text-gray-300">I am passionate about creating beautiful and functional websites that
-                            people can use and enjoy. I am always looking for new challenges and I am always learning new things.
+                            people can use and enjoy. I am always looking for new challenges and constantly learning new things.
                         </p>
                     </div>
                     <div>

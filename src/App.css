@@ -56,3 +56,43 @@ body {
 .read-the-docs {
   color: #888;
 }
+
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #00f6ff;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s ease-out, width 0.15s, height 0.15s;
+  z-index: 9999;
+}
+
+/* Hover effect */
+.custom-cursor.active {
+  width: 36px;
+  height: 36px;
+  border-color: #00f6ff;
+}
+
+.custom-cursor::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #00f6ff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+a:hover~.custom-cursor,
+button:hover~.custom-cursor {
+  transform: scale(1.6);
+}
+

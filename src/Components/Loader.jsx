@@ -8,7 +8,7 @@ const Loader = () => {
                 <div className="absolute w-3 h-3 bg-white rounded-full animate-pulse"></div>
             </div>
             <p className="mt-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500 font-bold tracking-widest animate-pulse">
-                PROCESSING
+                Loading
             </p>
         </div>
     );

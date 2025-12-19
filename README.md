@@ -1,4 +1,4 @@
-https://personal-portfoliovl.vercel.app/
+https://personal-portfolio-tr.vercel.app/
 
 # React + Vite
 

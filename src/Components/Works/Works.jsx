@@ -85,8 +85,8 @@ const Works = () => {
                         <div className="card-body">
                             <h2 className="card-title text-gray-200 justify-center font-bold text-xl mb-3">Salis Erp Landing Page</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://boisterous-phoenix-758565.netlify.app/"><button className="btn btn-neutral glow-on-hover text-gray-200">Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Gadget-Heaven-Router"><button className='btn btn-neutral hover:bg-black transition duration-300 text-gray-200'>Github</button></Link>
+                                <Link to="https://salis-erp-system-landing-page.vercel.app/"><button className="btn btn-neutral glow-on-hover text-gray-200">Live Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Salis-Erp-System_Landing-Page"><button className='btn btn-neutral hover:bg-black transition duration-300 text-gray-200'>Github</button></Link>
                             </div>
                         </div>
                     </div>

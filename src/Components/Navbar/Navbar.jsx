@@ -13,6 +13,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import './Navbar.scss';
 
 const Navbar = () => {
+    
     const links = <>
         <div className="flex md:block">
             <li className="btn button mr-5 mb-3 md:w-[6vw] w-[37vw] py-1 md:h-[6vh]"><NavLink>About <IoIosContact className="text-xl" /></NavLink></li>
@@ -28,7 +29,7 @@ const Navbar = () => {
     return (
         <div className="md:flex">
             {/* Profile */}
-            <div className="shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] rounded border border-gray-600 mb-10">
+            <div className="shadow-md md:fixed left-[10vw] md:w-[20vw] md:h-[90vh] rounded border border-gray-600 mb-10 md:ml-[2.5vw]">
                 <div className="background-container">
                     <div className="md:w-[303px] h-72 relative">
                         <div
@@ -100,7 +101,7 @@ const Navbar = () => {
             </div >
 
             {/* Navbar */}
-            <div className="navbar shadow-sm md:fixed left-0 md:w-[6vw] md:h-[80vh] ml-[1vw]">
+            <div className="navbar shadow-sm md:fixed left-0 md:w-[6vw] md:h-[80vh] md:ml-[4vw]">
                 <div className="sm:flex">
                     <ul className="menu sm:menu-vertical menu-horizontal px-1">
                         {links}

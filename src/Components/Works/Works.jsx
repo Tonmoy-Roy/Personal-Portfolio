@@ -1,6 +1,6 @@
 import youtube from "../../assets/icons/10039.jpg"
-import Ecommerce from "../../assets/icons/ecommerce-tech-trends_0.jpg"
-import cloth from "../../assets/icons/auth.avif"
+import hair from "../../assets/icons/man-getting-hair-loss-treatment.jpg"
+import hyped from "../../assets/icons/images.jpeg"
 import Food from "../../assets/icons/Food.png"
 import Movie from "../../assets/icons/movie.jpg"
 import salis from '../../assets/icons/salis.jpg'
@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Works = () => {
     return (
-        <div className="md:ml-[22vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10 text-left">
+        <div className="md:ml-[23.5vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10 text-left">
             <div className="h-full overflow-y-auto">
                 <p className="text-xl font-semibold text-gray-200"><span className="text-yellow-600">W</span>orks</p>
                 <p className="divider md:w-[30vw] bg-gray-600 h-[1px]"></p>
@@ -95,16 +95,16 @@ const Works = () => {
                     <div className="border border-gray-600 rounded-xl overflow-hidden group shadow-md hover:shadow-xl mb-5">
                         <figure>
                             <img
-                                src={cloth}
+                                src={hyped}
                                 alt="Cyber-Cafe"
                                 className="h-[35vh] w-[90vw] md:h-[31vh] md:w-[18.5vw] rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
                             />
                         </figure>
                         <div className="card-body">
-                            <h2 className="card-title text-gray-200 justify-center font-bold text-xl mb-3">Donate Authentication</h2>
+                            <h2 className="card-title text-gray-200 justify-center font-bold text-xl mb-3">GetHyped Landing Page</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://clothing-donation-fe0e7.web.app/"><button className="btn btn-neutral glow-on-hover text-gray-200"> Live Demo</button></Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Clothing-Donation-Authentication"><button className='btn btn-neutral hover:bg-black transition duration-300 text-gray-200'>Github</button></Link>
+                                <Link to="https://hyped-landing-page-vr.vercel.app/"><button className="btn btn-neutral glow-on-hover text-gray-200"> Live Demo</button></Link>
+                                <Link to="https://github.com/Tonmoy-Roy/Hyped-Landing-Page"><button className='btn btn-neutral hover:bg-black transition duration-300 text-gray-200'>Github</button></Link>
                             </div>
                         </div>
                     </div>
@@ -112,18 +112,18 @@ const Works = () => {
                     <div className="border border-gray-600 rounded-xl overflow-hidden group shadow-md hover:shadow-xl mb-5">
                         <figure>
                             <img
-                                src={Ecommerce} alt="Cyber-Cafe"
+                                src={hair} alt="Cyber-Cafe"
                                 className="md:h-[31vh] md:w-[18.5vw] rounded-lg mx-auto transition-transform duration-700 group-hover:scale-105"
                             />
                         </figure>
 
                         <div className="card-body">
-                            <h2 className="card-title text-gray-200 justify-center font-bold text-xl  mb-3">Qtech Ecommerce</h2>
+                            <h2 className="card-title text-gray-200 justify-center font-bold text-xl  mb-3">Hair Transplant Landing</h2>
                             <div className="card-actions justify-evenly">
-                                <Link to="https://ephemeral-stroopwafel-0b1394.netlify.app/">
+                                <Link to="https://hair-transplant-landing-page1.vercel.app/">
                                     <button className="btn btn-neutral glow-on-hover text-gray-200">Live Demo</button>
                                 </Link>
-                                <Link to="https://github.com/Tonmoy-Roy/Qtech-ECommerce">
+                                <Link to="https://github.com/Tonmoy-Roy/Hair-Transplant-Landing-Page">
                                     <button className="btn btn-neutral hover:bg-black transition duration-300 text-gray-200">GitHub</button>
                                 </Link>
                             </div>

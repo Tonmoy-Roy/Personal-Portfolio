@@ -30,7 +30,7 @@ const Contact = () => {
             .catch(() => alert("Failed to send message."));
     };
     return (
-        <div className="md:ml-[20vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10">
+        <div className="md:ml-[23.5vw] md:h-[90vh] overflow-hidden md:w-[60vw] pt-10">
             <div className="h-full overflow-y-auto">
                 <div className="md:mt-0 p-6 text-left">
                     <p className="text-xl font-semibold text-gray-200"><span className="text-yellow-600">S</span>ocial Links</p>
